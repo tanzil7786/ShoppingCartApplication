@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/style.css" />
+    <title>My Profile</title>
+  </head>
+  <body>
+    <header class="header-section">
+      <h2 class="logo"><a href="./shop.html">Shopping Cart</a></h2>
+    </header>
+
+    <section class="myProfile-section">
+      <h1 class="my-profile">My Profile</h1>
+      <form class="myProfile-form">
+        <input
+          type="text"
+          class="fname input-s"
+          required
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          class="lname input-s"
+          required
+          placeholder="Last Name"
+        />
+        <button type="submit" class="save-info">Save Info</button>
+      </form>
+    </section>
+
+    <section class="editPassword-section">
+      <h1 class="edit-pasword">Edit Password</h1>
+      <form class="editPassword-form">
+        <input
+          type="password"
+          class="input-s"
+          id="old-password";
+          required
+          placeholder="Old Password"
+        />
+        <input
+          type="password"
+          class=" input-s"
+          id="new-password"
+          required
+          placeholder="New Password"
+        />
+        <input
+          type="text"
+          class="input-s"
+          id="cnf-password"
+          required
+          placeholder="Confirm New Password"
+        />
+        <button type="submit" class="change-password">Change Password</button>
+        
+      </form>
+      <button type="submit" class="logout">Logout</button>
+    </section>
+
+    <script src="./profile.js"></script>
+  </body>
+</html>
